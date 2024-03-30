@@ -28,7 +28,7 @@ pipeline{
             steps{
                 git branch: 'main' , credentialsId: 'github' , url: 'https://github.com/sanjughasal/register-app'
             }
-        }
+  }
 
         stage("Build Application"){
             steps{
